@@ -1,12 +1,16 @@
-application:
-  base_url: "https://google.com"
-  automationpractice_QA: "http://www.automationpractice.pl/index.php"
-  automationpractice_HML: "https://www.bing.com/?cc=br"
-  automationpractice_PRD: "https://google.com"
-  bugereats_QA: "https://buger-eats.vercel.app/"
-  bugereats_HML: "https://www.bing.com/?cc=br"
-  bugereats_PRD: "https://google.com"
-  sauceDemo: "https://www.saucedemo.com/"
-  bug_bank: "https://bugbank.netlify.app/"
-  para_bank: "https://parabank.parasoft.com/parabank/index.htm"
-  
+environments:
+  dev:
+    baseUrl: "https://www.demoblaze.com/index.html"
+    usuario: "seuUsuario"
+    senha: "suaSenha"
+    timeout: 30000
+  qa:
+    baseUrl: "https://www.demoblaze.com/index.html"
+    usuario: "usuarioQa"
+    senha: "senhaQa"
+    timeout: 30000
+  prod:
+    baseUrl: "https://www.demoblaze.com/index.html"
+    usuario: "usuarioProd"
+    senha: "senhaProd"
+    timeout: 30000
